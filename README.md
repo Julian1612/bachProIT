@@ -1,16 +1,16 @@
 # 🎓 Bachelor Professional IT - Lernkarten Sammlung
 
-> [!IMPORTANT]
-> ## 🛑 WICHTIGER HINWEIS ZUR KI-NUTZUNG
+> [!WARNING]
+> # 🛑 ABSOLUTE PRIORITÄT: QUALITÄT & KI-CHECK
 >
-> **KI ist ein Hilfsmittel, kein Ersatz für das Gehirn!**
-> Wir nutzen hier KI, um den Lernprozess zu beschleunigen. Das ist legitim und sinnvoll, aber: **KI halluziniert und macht Fehler.**
+> **KI ist ein mächtiges Hilfsmittel, aber sie ist NICHT fehlerfrei! Nutze sie legitim zur Unterstützung, aber halte dich an diese Regeln:**
 >
-> * **Kopiere niemals blind generierte Karten.**
-> * **Prüfe jeden Inhalt ausführlich** auf Richtigkeit und Vollständigkeit, bevor du ihn lernst.
-> * **Nutze KI nicht als einziges Werkzeug** – erstelle auch eigene Karten manuell, um den Stoff wirklich zu verstehen.
->
-> **Qualität und fachliche Richtigkeit stehen an oberster Stelle!**
+> * 🧠 **KI ERSETZT NICHT DEIN GEHIRN:** Die KI hilft beim Strukturieren, aber das echte Lernen und Verstehen musst du selbst übernehmen.
+> * ⚠️ **KI HALLUZINIERT STARK:** KI-Modelle erfinden Fakten oder verdrehen Details. **VERTRAUE DER KI NIEMALS BLIND!**
+> * 🚫 **KEIN BLINDES KOPIEREN:** Jede generierte Karte muss vor dem Import zwingend gelesen und kritisch hinterfragt werden.
+> * ✅ **MANUELLE PRÜFUNG:** Kontrolliere jede Karte auf fachliche Richtigkeit und Vollständigkeit. Fehlt etwas Wichtiges?
+> * ✍️ **MACHE EIGENE KARTEN:** Nutze KI nicht als einziges Werkzeug. Manuell erstellte Karten sind oft der beste Weg, um komplexe Themen wirklich zu durchdringen.
+> * 🔝 **QUALITÄT VOR MASSE:** Die Richtigkeit der Inhalte steht an oberster Stelle. Unnötige Kleinigkeiten oder Multiple-Choice-Fragen ohne Mehrwert können (und sollten) weggelassen werden.
 
 ---
 
