@@ -1,6 +1,6 @@
 # 🎓 Bachelor Professional IT - Lernkarten Sammlung
 
-> [!WARNING]
+> [!IMPORTANT]
 > # 🛑 ABSOLUTE PRIORITÄT: QUALITÄT & KI-CHECK
 >
 > **KI ist ein mächtiges Hilfsmittel, aber sie ist NICHT fehlerfrei! Nutze sie legitim zur Unterstützung, aber halte dich an diese Regeln:**
