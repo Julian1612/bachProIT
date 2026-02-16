@@ -1,31 +1,44 @@
 🎓 Bachelor Professional IT - Lernkarten Sammlung
 =================================================
 
-Dieses Repository ist eine einfache Sammlung von Lernmaterialien für den **Bachelor Professional IT (IHK)**. Die Idee dahinter: Wir teilen unsere Karteikarten und Workflows, damit nicht jeder das Rad neu erfinden muss und wir alle Zeit und Energie sparen.
-
-Es geht hier nicht um Masse, sondern um Qualität. Ziel ist es, gezielt wichtige Themen aufzubereiten, anstatt einfach nur ganze Skripte zu kopieren.
-
-📂 Was findest du hier?
------------------------
-
--   **`ITM/` & `OuP/`**: Themenspezifische Karteikarten (CSV-Format), die du direkt in Anki importieren kannst.
-
--   **`flashCardsTemp/`**: Ein einfaches HTML/CSS-Design, damit die Karten in Anki sauber und einheitlich aussehen.
-
--   **`Promts/`**:
-
-    -   `NootbookLMPromt.md`: Um gezielt Zusammenfassungen von einzelnen Themen aus Skripten zu erstellen.
-
-    -   `GoogleGemPromt.md`: Um aus diesen Infos hochwertige Karteikarten im richtigen Format zu generieren.
+> [!CAUTION]
+>
+> ### 🛑 WICHTIGER HINWEIS ZUR KI-NUTZUNG
+>
+> **KI ist ein Hilfsmittel, kein Ersatz für das Gehirn!** > Wir nutzen hier KI, um den Lernprozess zu beschleunigen. Das ist legitim und sinnvoll, aber: **KI halluziniert und macht Fehler.** > * **Kopiere niemals blind generierte Karten.** > * **Prüfe jeden Inhalt ausführlich** auf Richtigkeit und Vollständigkeit, bevor du ihn lernst.
+>
+> -   Nutze KI nicht als einziges Werkzeug -- erstelle auch eigene Karten manuell, um den Stoff wirklich zu verstehen.
+>
+>
+> -   **Qualität und fachliche Richtigkeit stehen an oberster Stelle!**
 
 * * * * *
 
-⚙️ So stellst du alles ein
+Diese Sammlung dient dazu, Lernmaterialien für den **Bachelor Professional IT (IHK)** zentral zu sammeln. Anstatt dass jeder seine eigenen Zusammenfassungen und Karten mühsam von Null erstellt, teilen wir hier unsere Ergebnisse, um uns gegenseitig zu unterstützen und Zeit zu sparen.
+
+Es geht hier nicht darum, Masse zu produzieren, sondern gezielt hochwertige Karten zu den Themen zu erstellen, die es wirklich wert sind, gelernt zu werden.
+
+📂 Inhalt des Repositories
 --------------------------
+
+-   **`ITM/` & `OuP/`**: Sammlungen von Karteikarten (CSV-Format) für die Bereiche IT-Management sowie Organisation und Personal.
+
+-   **`flashCardsTemp/`**: Das Design-Template für Anki, damit deine Karten professionell und einheitlich aussehen (`front.html`, `back.html`, `style.css`).
+
+-   **`Promts/`**:
+
+    -   `NootbookLMPromt.md`: Optimierter Prompt für Google NotebookLM, um gezielt Themen aus Skripten zusammenzufassen.
+
+    -   `GoogleGemPromt.md`: Prompt für Google Gemini, um aus Zusammenfassungen fertige CSV-Listen für Anki zu machen.
+
+* * * * *
+
+⚙️ Einrichtung & Konfiguration
+------------------------------
 
 ### 1\. Anki Design (Template)
 
-Damit das Layout passt, musst du den Notiztyp in Anki einmalig anlegen:
+Damit das Layout der Karten stimmt, musst du den Notiztyp in Anki einmalig anlegen:
 
 1.  Gehe in Anki auf **Werkzeuge** -> **Notiztypen verwalten** -> **Hinzufügen**.
 
@@ -41,38 +54,38 @@ Damit das Layout passt, musst du den Notiztyp in Anki einmalig anlegen:
 
 ### 2\. Karten importieren
 
-1.  Klicke in Anki auf **Datei** -> **Importieren**.
+1.  Wähle in Anki **Datei** -> **Importieren**.
 
-2.  Wähle eine CSV-Datei aus dem Repo aus.
+2.  Wähle eine CSV-Datei aus dem Repository.
 
-3.  Wichtig: Wähle als Trennzeichen das Pipe-Symbol (`|`) und nutze den oben erstellen Notiztyp `BachelorProIT`.
-
-* * * * *
-
-🚀 Der Workflow: Qualität statt Masse
--------------------------------------
-
-Wir nutzen KI, um gezielt Themen zu erarbeiten, nicht um blind Texte zu kopieren.
-
-1.  **Thema wählen:** Such dir ein Thema aus dem Skript, das wirklich wichtig ist.
-
-2.  **Zusammenfassen:** Mit dem Prompt aus `Promts/NootbookLMPromt.md` erstellst du in NotebookLM eine kurze, knackige Zusammenfassung des Themas.
-
-3.  **Karten erstellen:** Den Text kopierst du zusammen mit dem Prompt aus `Promts/GoogleGemPromt.md` in Google Gemini. Du erhältst fertige Karten für den Import.
-
-4.  **Check:** Kurz drüberschauen, ob alles passt, und ab in Anki.
+3.  Stelle sicher, dass als Trennzeichen das Pipe-Symbol (`|`) eingestellt ist und der Notiztyp auf `BachelorProIT` steht.
 
 * * * * *
 
-🤝 Mitmachen
-------------
+🚀 Der Workflow: Klasse statt Masse
+-----------------------------------
 
-Das Ganze funktioniert am besten, wenn wir uns gegenseitig unterstützen. Wenn du für ein Thema gute Karten erstellt hast, lade sie hier hoch.
+Wir fokussieren uns auf einzelne, relevante Themen statt auf riesige Textwüsten.
 
--   **Korrigieren:** Fehler gefunden? Einfach korrigieren und commiten.
+1.  **Gezielte Themenwahl:** Pick dir ein wichtiges Thema aus dem IHK-Skript heraus.
 
--   **Erweitern:** Neue Themen-CSVs hinzufügen.
+2.  **Zusammenfassen (NotebookLM):** Nutze den Prompt aus `Promts/NootbookLMPromt.md`, um eine prägnante Zusammenfassung zu erhalten.
 
--   **Verbessern:** Wenn du die Prompts oder das Design optimiert hast, lass es alle wissen.
+3.  **Karten erstellen (Gemini):** Kopiere die Zusammenfassung zusammen mit dem Prompt aus `Promts/GoogleGemPromt.md` in Google Gemini.
 
-Wenn alle mitmachen, haben wir am Ende eine top Vorbereitung für die Prüfung und sparen uns das nervige Abtippen. Viel Erfolg beim Lernen!
+4.  **Qualitätskontrolle:** Lies die Karten kritisch durch. Korrigiere Fehler oder ergänze Fehlendes sofort. Multiple-Choice-Karten können weggelassen werden, wenn sie keinen Mehrwert bieten.
+
+* * * * *
+
+🤝 Mitmachen & Beitragen
+------------------------
+
+Dieses Repo lebt davon, dass alle mit anpacken. Wenn wir unsere Ressourcen teilen, haben wir alle eine bessere Vorbereitung und mehr Zeit für die wichtigen Dinge.
+
+-   **Committen:** Du hast ein Thema gut aufbereitet? Lade die CSV hier hoch!
+
+-   **Korrigieren:** Du hast einen Fehler in einer Karte gefunden? Fix ihn und mach einen Commit.
+
+-   **Optimieren:** Du hast einen besseren Prompt oder ein schöneres CSS? Her damit!
+
+Lasst uns gemeinsam das Studium effizienter gestalten und uns gegenseitig zum Abschluss verhelfen. Viel Erfolg!
