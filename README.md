@@ -1,7 +1,3 @@
-Hier ist eine strukturierte und sachliche `README.md` für dein Repository, die genau den Fokus auf Qualität und gezielte Vorbereitung legt.
-
-* * * * *
-
 🎓 Bachelor Professional IT - Lernmaterial & AI-Workflow
 ========================================================
 
