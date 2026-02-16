@@ -1,6 +1,6 @@
 # 🎓 Bachelor Professional IT - Lernkarten Sammlung
 
-> [!WARNING]
+> [!CAUTION]
 > # 🛑 ABSOLUTE PRIORITÄT: QUALITÄT & KI-CHECK
 >
 > **KI ist ein Hilfsmittel, kein Ersatz für das Gehirn! Nutze sie zur Unterstützung, aber halte dich an diese Regeln:**
@@ -68,12 +68,13 @@ Damit das Layout funktioniert, muss der Notiztyp exakt so konfiguriert sein:
 2. **Karten erstellen:** Nutze den Prompt aus `Promts/GoogleGemPromt.md`.
 3. **Qualitätskontrolle:** Prüfe die Karte!
 
-### 🔍 Karten Prüfen
-* **Faktencheck:** Abgleich mit Skripten. Fachbegriffe müssen exakt stimmen.
-* **Atomarität:** Eine Karte = eine klare Information. 
-* **Eindeutigkeit:** Die Frage muss ohne Raten verständlich sein.
-* **Kein Datenmüll:** Multiple-Choice oder "Ja/Nein"-Karten aussortieren, wenn sie keinen Lerneffekt haben.
-* **Format-Check:** Prüfe, ob das Pipe-Symbol (`|`) korrekt sitzt, damit der Import nicht zerschossen wird.
+> [!WARNING]
+> ### 🔍 Karten Prüfen
+> * **Faktencheck:** Abgleich mit Skripten. Fachbegriffe müssen exakt stimmen.
+> * **Atomarität:** Eine Karte = eine klare Information. 
+> * **Eindeutigkeit:** Die Frage muss ohne Raten verständlich sein.
+> * **Kein Datenmüll:** Multiple-Choice oder "Ja/Nein"-Karten aussortieren, wenn sie keinen Lerneffekt haben.
+> * **Format-Check:** Prüfe, ob das Pipe-Symbol (`|`) korrekt sitzt, damit der Import nicht zerschossen wird.
 
 ---
 
