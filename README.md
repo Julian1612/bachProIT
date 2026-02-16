@@ -30,20 +30,26 @@ Es geht hier nicht um Masse, sondern um gezielte Qualität. Wir bereiten Themen 
 
 ## ⚙️ Einrichtung & Konfiguration
 
-### 1. Anki Design (Template)
-Damit das Layout der Karten stimmt, musst du den Notiztyp in Anki einmalig anlegen:
+### 1. Anki Design (Template) einrichten
+Damit das Layout funktioniert, muss der Notiztyp exakt so konfiguriert sein:
 
-1. Gehe in Anki auf **Werkzeuge** -> **Notiztypen verwalten** -> **Hinzufügen**.
-2. Wähle "Einfach" und nenne ihn z.B. `BachelorProIT`.
-3. Klicke auf **Karten...** und kopiere die Inhalte aus dem Ordner `flashCardsTemp/` in die Felder:
-    * `front.html` -> **Vorderseite**
-    * `back.html` -> **Rückseite**
-    * `style.css` -> **Formatierung**
+1.  **Notiztyp erstellen:** Gehe in Anki auf **Werkzeuge** -> **Notiztypen verwalten** -> **Hinzufügen**. Wähle "Einfach" und nenne ihn **`BachelorProIT`**.
+2.  **Felder zwingend anpassen:** Markiere den neuen Typ `BachelorProIT` und klicke rechts auf **Felder...**. 
+    * Benenne die Felder exakt so um (oder füge sie hinzu):
+        1. **`Vorderseite`**
+        2. **`Rückseite`**
+    * *Hinweis: Ohne diese exakten Namen findet das Template die Daten nicht!*
+3.  **Code einfügen:** Klicke in der Notiztypen-Verwaltung auf **Karten...** und kopiere den Code aus dem Repo:
+    * Inhalt von `front.html` -> **Vorderseite**
+    * Inhalt von `back.html` -> **Rückseite**
+    * Inhalt von `style.css` -> **Formatierung**
 
 ### 2. Karten importieren
 1. Wähle in Anki **Datei** -> **Importieren**.
-2. Wähle eine CSV-Datei aus dem Repository.
-3. Stelle sicher, dass als Trennzeichen das Pipe-Symbol (`|`) eingestellt ist und der Notiztyp auf `BachelorProIT` steht.
+2. Wähle eine CSV-Datei aus dem Repo.
+3. **Wichtig:** * Trennzeichen: Pipe-Symbol (**`|`**).
+    * Notiztyp: **`BachelorProIT`**.
+    * Stelle sicher, dass die CSV-Spalten den Feldern "Vorderseite" und "Rückseite" korrekt zugeordnet sind.
 
 ---
 
@@ -51,10 +57,22 @@ Damit das Layout der Karten stimmt, musst du den Notiztyp in Anki einmalig anleg
 
 Wir fokussieren uns auf einzelne, relevante Themen statt auf riesige Textwüsten.
 
-1. **Themenwahl:** Pick dir ein wichtiges Thema aus dem IHK-Skript heraus.
+1. **Themenwahl:** Pick dir ein wichtiges Thema aus dem Skript heraus.
 2. **Zusammenfassen (NotebookLM):** Nutze den Prompt aus `Promts/NootbookLMPromt.md`.
 3. **Karten erstellen (Gemini):** Nutze den Prompt aus `Promts/GoogleGemPromt.md`.
 4. **Qualitätskontrolle:** Lies die Karten kritisch durch. Korrigiere Fehler oder ergänze Fehlendes sofort. Multiple-Choice-Karten können weggelassen werden, wenn sie keinen Mehrwert bieten.
+
+### 🔍 Regeln zur Qualitätssicherung (Handlungsanweisung)
+
+Damit das Repository für alle nützlich bleibt, halte dich beim Erstellen und Prüfen an diese goldenen Regeln:
+
+* **Faktencheck-Pflicht:** Gleiche KI-generierte Definitionen immer mit den Skripten oder anderen Lehrmaterialien ab. Fachbegriffe müssen korrekt verwendet werden.
+* **Das Prinzip der Atomarität:** Eine Karte = Eine Information. Erstelle keine "Monster-Karten" mit 10 Aufzählungspunkten. Wenn eine Antwort zu lang ist, teile sie in mehrere kleine Karten auf. 
+* **Kontext wahren:** Achte darauf, dass die Frage eindeutig ist. Man sollte schon an der Frage erkennen, aus welchem Lernbereich  das Thema stammt.
+* **Verständnis vor Auswendiglernen:** Wenn die KI eine Antwort zu kompliziert formuliert, schreibe sie in deinen eigenen Worten um. Du musst die Logik dahinter verstehen, nicht nur den Text reproduzieren.
+* **Kein Datenmüll:** * Lösche redundante Karten (doppelte Inhalte).
+    * Karten, die nur "Ja/Nein" Antworten erfordern, sind meist wertlos – wandle sie in "Erkläre..." oder "Nenne die 3 Merkmale von..." um.
+* **Format-Check:** Prüfe vor dem Commit, ob das Pipe-Symbol (`|`) korrekt als Trenner sitzt und keine Zeilenumbrüche innerhalb der Felder den Import zerschießen.
 
 ---
 
