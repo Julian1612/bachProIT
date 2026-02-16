@@ -1,6 +1,6 @@
 # 🎓 Bachelor Professional IT - Lernkarten Sammlung
 
-> [!CAUTION]
+> [!IMPORTANT]
 > ## 🛑 WICHTIGER HINWEIS ZUR KI-NUTZUNG
 >
 > **KI ist ein Hilfsmittel, kein Ersatz für das Gehirn!**
