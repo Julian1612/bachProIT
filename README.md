@@ -18,7 +18,7 @@ Diese Sammlung dient dazu, Lernmaterialien für den **Bachelor Professional IT (
 
 ## 📂 Inhalt des Repositories
 
-* **`ITM/` & `OuP/`**: Themenspezifische Karteikarten (CSV-Format).
+* **`Karteikarten/ITM/` & `Karteikarten/OuP/`**: Themenspezifische Karteikarten (CSV-Format).
 * **`flashCardsTemp/`**: Das Design-Template für Anki (`front.html`, `back.html`, `style.css`).
 * **`Promts/`**: 
     * `NootbookLMPromt.md`: Zusammenfassungen einzelner Themen erstellen.
