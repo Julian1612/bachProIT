@@ -68,7 +68,7 @@ Damit das Layout funktioniert, muss der Notiztyp exakt so konfiguriert sein:
 2. **Karten erstellen:** Nutze den Prompt aus `Promts/GoogleGemPromt.md`.
 3. **Qualitätskontrolle:** Prüfe die Karte!
 
-> [!WARNING]
+> [!IMPORTANT]
 > ### 🔍 Karten Prüfen
 > * **Faktencheck:** Abgleich mit Skripten. Fachbegriffe müssen exakt stimmen.
 > * **Atomarität:** Eine Karte = eine klare Information. 
